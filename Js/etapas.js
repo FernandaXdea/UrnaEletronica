@@ -56,7 +56,7 @@ let etapas= [
     numeros: 2,
     candidatos: [
         {
-            numeri: '17',
+            numero: '17',
             nome: 'Bozo',
             partido: 'PNC',
             vice: 'Bozo Filho',
@@ -65,7 +65,38 @@ let etapas= [
                 { url: 'bozo_Filho.jpg', legenda: 'Vice', small: true },
             ]
         },
-]}
+        {
+            numero: '13',
+            nome: 'Lulinha',
+            partido: 'PT',
+            vice: 'Polvo do Povo',
+            fotos: [
+                { url: 'UrnaEletronica/IMG/lula.jpg', legenda: 'Presidente', small: false },
+                { url: 'UrnaEletronica/IMG/lula.jpg', legenda: 'Vice', small: true },
+            ]
+        },
+        {
+            numero: '11',
+            nome: 'Eddie Munson',
+            partido: 'PDP',
+            vice: 'Steave Harrington',
+            fotos: [
+                { url: 'UrnaEletronica/IMG/Eddie Munson.jpg', legenda: 'Presidente', small: false },
+                { url: 'UrnaEletronica/IMG/Steve Harrington icons.jpg', legenda: 'Vice', small: true },
+            ]
+        },
+        {
+            numero: '69',
+            nome: 'Harry Styles',
+            partido: 'PGG',
+            vice: 'Justin Bieber',
+            fotos: [
+                { url: 'UrnaEletronica/IMG/HarryStyles.jpg', legenda: 'Presidente', small: false },
+                { url: 'UrnaEletronica/IMG/JB.jpg', legenda: 'Vice', small: true },
+            ]
+        },
+
+    ]}
 
 
 
