@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .urna {
     background-color: rgb(250, 201, 234);
@@ -68,9 +69,66 @@
 }
 .d-1-left{
     flex: 1;
+    display: flex;
+    flex-direction: column;/* para ficar tudo em coluna um sobre o outro*/
+    padding-left: 20px; /* distanciar itens da borda*/
+}
+.d-1-1{
+    height: 50px;
+    display: flex;
+    align-items: center; /* alinhar itens centralizado*/
+}
+.d-1-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*centralizar texto*/
+}
+.d-1-3{
+    height: 50px;
+    
+}
+.d-1-4{
+    flex: 1; /* preence tudo oq sobrou */
+    line-height: 30px; /*distancia entre as linhas*/
+}
+.numero{
+    display: inline-block;
+    width: 30px; /*largura*/
+    height: 40px; /*altura*/
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+@keyframes pisca {
+    0% {opacity: 0.2;}
+    50%{ opacity: 1;}
+    100%{opacity: 0.2;}
+}
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .d-1-right {
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.d-1-image {
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.d-1-image img {
+    width: 100%;
+}
+.d-1-image.small{
+    width: 98%;
+    font-size: 12px;
 }
 .d-2{
     height: 50px;
